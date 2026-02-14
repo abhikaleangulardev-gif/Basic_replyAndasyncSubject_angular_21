@@ -6,12 +6,14 @@ import { App } from './app';
 import { ReplaySubject } from './component/replay-subject/replay-subject';
 import { HeaderPage } from './header/header-page/header-page';
 import { provideHttpClient } from '@angular/common/http';
+import { AsyncSubject } from './component/async-subject/async-subject';
 
 @NgModule({
   declarations: [
     App,
     ReplaySubject,
-    HeaderPage
+    HeaderPage,
+    AsyncSubject
   ],
   imports: [
     BrowserModule,
